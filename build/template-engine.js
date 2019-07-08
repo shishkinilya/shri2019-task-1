@@ -1,5 +1,4 @@
 export default function(obj) {
-  const dataObj = JSON.parse(obj);
   const result = document.createDocumentFragment();
 
   function getEntityClassList(entity) {
@@ -53,7 +52,7 @@ export default function(obj) {
     }
   }
 
-  traverse(dataObj, result);
+  traverse(obj, result);
 
   const tempDiv = document.createElement('div');
   tempDiv.appendChild(result);
