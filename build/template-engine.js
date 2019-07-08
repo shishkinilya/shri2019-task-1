@@ -53,7 +53,7 @@ export default function(obj) {
     }
   }
 
-  traverse(obj, result);
+  traverse(dataObj, result);
 
   const tempDiv = document.createElement('div');
   tempDiv.appendChild(result);
