@@ -36,7 +36,7 @@ export default function(obj) {
   }
 
   function traverse(bemJson, context) {
-    const content = bemJson.content;
+    const content = bemJson && bemJson.content;
     const htmlElement = document.createElement(bemJson.tag || 'div');
     const classList = getClassList(bemJson);
 
