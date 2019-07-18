@@ -49,10 +49,19 @@ export default function(obj) {
       context.appendChild(htmlElement);
 
       if (content) {
-        if (Array.isArray(content)) {
-          content.forEach(child => traverse(child, htmlElement))
+        if (content.html) {
+          const parser = new DOMParser();
+          const htmlContent = parser.parseFromString(content.html, 'text/html');
+
+          for (const child of htmlContent.body.children) {
+            context.lastChild.appendChild(child);
+          }
         } else {
-          traverse(content, htmlElement)
+          if (Array.isArray(content)) {
+            content.forEach(child => traverse(child, htmlElement))
+          } else {
+            traverse(content, htmlElement)
+          }
         }
       }
     }
