@@ -36,18 +36,20 @@ export default function(obj) {
   }
 
   function traverse(bemJson, context) {
-    const content = bemJson && bemJson.content;
-    const htmlElement = document.createElement(bemJson.tag || 'div');
-    const classList = getClassList(bemJson);
+    if (bemJson) {
+      const content = bemJson.content;
+      const htmlElement = document.createElement(bemJson.tag || 'div');
+      const classList = getClassList(bemJson);
 
-    htmlElement.classList.add(...classList);
-    context.appendChild(htmlElement);
+      htmlElement.classList.add(...classList);
+      context.appendChild(htmlElement);
 
-    if (content) {
-      if (Array.isArray(content)) {
-        content.forEach(child => traverse(child, htmlElement))
-      } else {
-        traverse(content, htmlElement)
+      if (content) {
+        if (Array.isArray(content)) {
+          content.forEach(child => traverse(child, htmlElement))
+        } else {
+          traverse(content, htmlElement)
+        }
       }
     }
   }
