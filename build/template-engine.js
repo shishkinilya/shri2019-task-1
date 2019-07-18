@@ -29,7 +29,11 @@ export default function(obj) {
     const classList = getEntityClassList(bemItem);
 
     if (bemItem.mix) {
-      bemItem.mix.forEach(mixItem => classList.push(...getEntityClassList(mixItem)))
+      if (Array.isArray(bemItem.mix)) {
+        bemItem.mix.forEach(mixItem => classList.push(...getEntityClassList(mixItem)))
+      } else {
+        classList.push(...getEntityClassList(bemItem.mix))
+      }
     }
 
     return classList;
