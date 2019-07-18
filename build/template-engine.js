@@ -50,12 +50,7 @@ export default function(obj) {
 
       if (content) {
         if (content.html) {
-          const parser = new DOMParser();
-          const htmlContent = parser.parseFromString(content.html, 'text/html');
-
-          for (const child of htmlContent.body.children) {
-            context.lastChild.appendChild(child);
-          }
+          context.lastChild.innerHTML = content.html;
         } else {
           if (Array.isArray(content)) {
             content.forEach(child => traverse(child, htmlElement))
