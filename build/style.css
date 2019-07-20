@@ -783,6 +783,9 @@
 .subscription {
   min-height: 408px; }
 
+.subscription__control:last-child {
+  padding-bottom: 0; }
+
 .subscription__title {
   margin-bottom: var(--space-xl); }
 
