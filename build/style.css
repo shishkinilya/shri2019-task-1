@@ -658,13 +658,12 @@
 .payment {
   border: 3px solid var(--border-color); }
   .payment .form__control {
+    display: flex;
+    justify-content: flex-end;
     flex-grow: 1; }
 
 .payment__content {
   padding-bottom: var(--space-m); }
-
-.payment__footer {
-  justify-content: space-between; }
 
 .warning {
   min-height: 335px; }
