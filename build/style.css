@@ -669,7 +669,10 @@
   padding-bottom: var(--space-m); }
 
 .warning {
-  min-height: 335px; }
+  min-height: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
   @media (min-width: 1144px) {
     .warning {
       min-height: 356px; } }
