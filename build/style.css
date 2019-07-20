@@ -670,12 +670,14 @@
 
 .warning {
   min-height: 335px; }
+  @media (min-width: 1144px) {
+    .warning {
+      min-height: 356px; } }
   .warning .placeholder {
     margin-top: var(--space-m);
     margin-bottom: var(--space-m); }
 
 .warning__content {
-  margin-bottom: 36px;
   flex-wrap: wrap; }
   .warning__content .text {
     justify-content: center; }
