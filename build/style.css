@@ -408,6 +408,9 @@
 .icon-plus__icon_indent-r_s {
   margin-right: var(--space-s); }
 
+.section {
+  background-color: var(--default-bg-color); }
+
 .section_indent-b_xxl {
   margin-bottom: var(--space-xxl); }
 
