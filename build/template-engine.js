@@ -53,7 +53,13 @@ export default function(obj) {
           context.lastChild.innerHTML = content.html;
         } else {
           if (Array.isArray(content)) {
-            content.forEach(child => traverse(child, htmlElement))
+            content.forEach(child => {
+              if (Array.isArray(child)) {
+                child.forEach(item => traverse(item, htmlElement));
+              } else {
+                traverse(child, htmlElement);
+              }
+            })
           } else {
             traverse(content, htmlElement)
           }
