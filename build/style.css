@@ -682,7 +682,8 @@
   border: 3px solid var(--border-color); }
 
 .product__image {
-  height: 160px; }
+  height: 160px;
+  --image-border-color: var(--default-bg-color); }
 
 .history {
   border: 3px solid var(--border-color); }
