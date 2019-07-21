@@ -744,6 +744,12 @@
   border: 3px solid var(--border-color); }
   .collect .text_view_primary {
     margin-bottom: var(--space-s); }
+  .collect_size_one-third {
+    --collect-progress-size: calc(1 / 3 * 100%); }
+  .collect_size_half {
+    --collect-progress-size: 50%; }
+  .collect_size_two-thirds {
+    --collect-progress-size: calc(2 / 3 * 100%); }
 
 .collect__done {
   width: var(--collect-progress-size);
