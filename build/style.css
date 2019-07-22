@@ -83,11 +83,14 @@
   --space-xxxxl: 48px;
   --space-xxxxxl: 72px; }
 
+.layout__container {
+  background-color: var(--default-bg-color); }
+
 .layout__container_align_center {
   margin-right: auto;
   margin-left: auto; }
 
-.layout__container_indent-b_xxl {
+.layout__container_indent-b_xxl:not(:last-child) {
   margin-bottom: var(--space-xxl); }
 
 .layout__container_indent-b_xxxxl {
