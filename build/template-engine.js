@@ -1,5 +1,6 @@
 export default function(obj) {
   const result = document.createDocumentFragment();
+  result.textContent = JSON.stringify(obj);
 
   function getEntityClassList(entity) {
     const classList = [];
