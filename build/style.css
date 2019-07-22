@@ -779,6 +779,9 @@
 .articles .text_view_primary {
   margin-bottom: var(--space-xs); }
 
+.articles__article:last-child {
+  margin-bottom: 0; }
+
 .articles__pic {
   width: 170px;
   height: 120px;
