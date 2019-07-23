@@ -1,0 +1,13 @@
+.articles {
+
+  .image {
+    border-color: #000;
+  }
+
+  .text_view_primary {
+    margin-bottom: var(--space-xs);
+  }
+}
+
+@import '__article/articles__article';
+@import '__pic/articles__pic';

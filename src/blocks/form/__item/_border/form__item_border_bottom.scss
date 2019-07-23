@@ -1,0 +1,7 @@
+.form__item_border_bottom {
+  border-bottom: 3px solid var(--border-color);
+
+  .form_border_all &:last-child {
+    border-bottom: 0;
+  }
+}

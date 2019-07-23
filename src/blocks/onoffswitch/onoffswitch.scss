@@ -1,0 +1,10 @@
+.onoffswitch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 97px;
+  height: 32px;
+  border: 2px solid var(--border-color);
+}
+
+@import '__button/onoffswitch__button';

@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  width: 100%;
+}
+
+@import '_col-gap/grid_col-gap_full';
+@import '_col-gap/grid_col-gap_half';
+@import '_col-gap/grid_col-gap_two-thirds';
+@import '_m-columns/grid_m-columns_10';
+@import '_m-columns/grid_m-columns_12';
+@import '_row-gap/grid_row-gap_full';
+@import '_row-gap/grid_row-gap_half';
+
+@import '__fraction/_m-col/grid__fraction_m-col_2';
+@import '__fraction/_m-col/grid__fraction_m-col_3';
+@import '__fraction/_m-col/grid__fraction_m-col_4';
+@import '__fraction/_m-col/grid__fraction_m-col_5';
+@import '__fraction/_m-col/grid__fraction_m-col_8';

@@ -1,0 +1,11 @@
+.payment {
+  border: 3px solid var(--border-color);
+
+  .form__control {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+}
+
+@import '__content/payment__content';

@@ -1,0 +1,11 @@
+.history {
+  border: 3px solid var(--border-color);
+}
+
+
+@import '__details/history__details';
+@import '__hide/history__hide';
+@import '__label/history__label';
+@import '__quanity/history__quantity';
+@import '__show/history__show';
+@import '__time/history__time';

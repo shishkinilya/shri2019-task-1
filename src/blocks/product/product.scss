@@ -1,0 +1,7 @@
+.product {
+  min-height: 280px;
+  border: 3px solid var(--border-color);
+}
+
+@import '__image/product__image';
+@import '__title/product__title';

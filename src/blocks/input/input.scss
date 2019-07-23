@@ -1,0 +1,10 @@
+.input {
+  width: 100%;
+  border: 3px solid var(--border-color);
+}
+
+@import '_size/input_size_l';
+@import '_size/input_size_m';
+@import '_size/input_size_s';
+@import '_size/input_size_xl';
+@import '_size/input_size_xxl';

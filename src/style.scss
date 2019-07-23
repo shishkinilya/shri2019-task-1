@@ -1,0 +1,46 @@
+// Слой темы
+@import 'blocks/theme/theme';
+
+// Слой каркаса
+@import 'blocks/layout/layout';
+@import 'blocks/grid/grid';
+
+// Слой паттернов
+@import 'blocks/card/card';
+@import 'blocks/form/form';
+@import 'blocks/informer/informer';
+@import 'blocks/icon-plus/icon-plus';
+@import 'blocks/section/section';
+@import 'blocks/list/list';
+
+// Слой контента
+@import 'blocks/text/text';
+@import 'blocks/avatar/avatar';
+@import 'blocks/brand-logo/brand-logo';
+@import 'blocks/placeholder/placeholder';
+@import 'blocks/button/button';
+@import 'blocks/input/input';
+@import 'blocks/image/image';
+
+// Контентные блоки
+@import 'blocks/payment/payment';
+@import 'blocks/warning/warning';
+@import 'blocks/product/product';
+@import 'blocks/history/history';
+@import 'blocks/commercial/commercial';
+@import 'blocks/cover/cover';
+@import 'blocks/collect/collect';
+@import 'blocks/articles/articles';
+@import 'blocks/offer/offer';
+@import 'blocks/subscription/subscription';
+@import 'blocks/event/event';
+@import 'blocks/header/header';
+@import 'blocks/onoffswitch/onoffswitch';
+@import 'blocks/footer/footer';
+@import 'blocks/e-accordion/e-accordion';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

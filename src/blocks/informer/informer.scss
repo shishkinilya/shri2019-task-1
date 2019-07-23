@@ -1,0 +1,14 @@
+@import '_border/informer_border_all';
+@import '_view/informer_view_default';
+
+@import '__action/_destribute/informer__action_distribute_between';
+@import '__action/_destribute/informer__action_distribute_center';
+@import '__action/_destribute/informer__action_distribute_default';
+@import '__action/_space-a/informer__action_space-a_xl';
+@import '__action/_space-a/informer__action_space-a_xxl';
+
+@import '__content/_distribute/informer__content_distribute_between';
+@import '__content/_distribute/informer__content_distribute_center';
+@import '__content/_distribute/informer__content_distribute_default';
+@import '__content/_space-a/informer__content_space-a_xl';
+@import '__content/_space-a/informer__content_space-a_xxl';

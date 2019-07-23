@@ -1,0 +1,11 @@
+.button {
+  background-color: var(--accent-bg-color);
+}
+
+@import '_size/button_size_l';
+@import '_size/button_size_m';
+@import '_size/button_size_s';
+@import '_size/button_size_xl';
+@import '_size/button_size_xxl';
+
+@import '_width/button_width_full';

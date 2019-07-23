@@ -1,0 +1,8 @@
+.commercial {
+  min-height: 430px;
+  bottom: 3px solid var(--border-color);
+}
+
+@import '__image/commercial__image';
+@import '__navigation/commercial__navigation';
+@import '__page-button/commercial__page-button';

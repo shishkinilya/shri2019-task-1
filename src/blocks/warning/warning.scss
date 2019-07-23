@@ -1,0 +1,19 @@
+@import '../theme/_breakpoint/theme_breakpoint_default';
+
+.warning {
+  min-height: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (min-width: $screen-m) {
+    min-height: 356px;
+  }
+
+  .placeholder {
+    margin-top: var(--space-m);
+    margin-bottom: var(--space-m);
+  }
+}
+
+@import '__content/warning__content';

@@ -1,0 +1,17 @@
+.collect__done {
+  width: var(--collect-progress-size);
+  height: 100%;
+  background-color: var(--link-text-color);
+
+  &_size_one-third {
+    width: calc(1 / 3 * 100%);
+  }
+
+  &_size_half {
+    width: 50%;
+  }
+
+  &_size_two-third {
+    width: calc(2 / 3 * 100%);
+  }
+}

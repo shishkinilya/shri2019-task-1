@@ -1,0 +1,26 @@
+.card {
+  position: relative;
+}
+
+@import '_border/card_border_all';
+@import '_view/card_view_default';
+
+@import '__content/card__content';
+@import '__content/_distribute/card__content_distribute_center';
+@import '__content/_space-a/card__content_space-a_l';
+@import '__content/_space-a/card__content_space-a_m';
+@import '__content/_space-a/card__content_space-a_xl';
+@import '__content/_space-a/card__content_space-a_xxl';
+@import '__content/_vertical-align/card__content_vertical-align_center';
+
+@import '__footer/card__footer';
+@import '__footer/_distribute/card__footer_distribute_between';
+@import '__footer/_distribute/card__footer_distribute_center';
+@import '__footer/_distribute/card__footer_distribute_right';
+@import '__footer/_vertical-align/card__footer_vertical-align_bottom';
+@import '__footer/_vertical-align/card__footer_vertical-align_center';
+@import '__footer/_vertical-align/card__footer_vertical-align_top';
+@import '__footer/_space-a/card__footer_space-a_l';
+@import '__footer/_space-a/card__footer_space-a_m';
+@import '__footer/_space-a/card__footer_space-a_xl';
+@import '__footer/_space-a/card__footer_space-a_xxl';

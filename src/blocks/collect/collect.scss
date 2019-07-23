@@ -1,0 +1,14 @@
+.collect {
+  min-height: 380px;
+  border: 3px solid var(--border-color);
+
+  .text_view_primary {
+    margin-bottom: var(--space-s);
+  }
+}
+
+@import '__done/collect__done';
+
+@import '__image/collect__image';
+
+@import '__progress/collect__progress';

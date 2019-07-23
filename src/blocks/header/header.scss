@@ -1,0 +1,9 @@
+.header {
+  padding-top: var(--space-xxxl);
+  padding-right: var(--gap);
+  padding-bottom: var(--space-xxxl);
+  padding-left: var(--gap);
+}
+
+@import '__content/header__content';
+@import '__logo/header__logo';

@@ -1,0 +1,7 @@
+@import '../../theme/_breakpoint/theme_breakpoint_default';
+
+@media (min-width: $screen-m) {
+  .grid_m-columns_12 {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
